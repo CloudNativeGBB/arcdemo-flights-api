@@ -13,3 +13,5 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
         dockerfile: Dockerfile
         registry: docker.pkg.github.com
+        snapshot: true
+
